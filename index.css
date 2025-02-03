@@ -188,7 +188,7 @@ p {
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
 
     .cards {
         grid-template-columns: repeat(2, 1fr);
@@ -197,11 +197,26 @@ p {
 }
 
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 1024px) {
 
 
     .cards {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .card {
+        margin: 5% auto auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .nav-ul {
@@ -211,20 +226,6 @@ p {
     .nav-dropdown {
         display: block;
         font-family: 'Montserrat';
-    }
-
-    .card {
-        margin: 5% auto auto;
-    }
-}
-
-@media screen and (max-width: 680px) {
-
-    .cards {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 
     footer{
